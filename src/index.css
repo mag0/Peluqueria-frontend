@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+    --color-primary: #181411;
+    --color-button: #CF6317;
+    --color-text: #CE6317;
+    --color-text-opacity: #ce631781;
+    --color-primary-opacity: #18141190;
+    --color-card: #231E19;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: var(--color-primary);
+    height: 100vh;
+}
+
+.imagen-home {
+    background-image: url('/fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: var(--color-primary);
+}
+
+.imagen-services {
+    background-image: url('/fondoService1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    height: 80vh;
+}

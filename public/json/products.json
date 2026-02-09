@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "The Classic Cut",
+        "description": "Corte clásico y elegante con terminaciones prolijas, ideal para un look limpio y profesional.",
+        "price": 25,
+        "time": 45,
+        "image": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=1600&auto=format&fit=crop"
+    },
+    {
+        "id": 2,
+        "name": "Corte Moderno Fade",
+        "description": "Degradado moderno con transición suave y estilo actual. Perfecto para un look urbano.",
+        "price": 30,
+        "time": 45,
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBn6dd9EQYcoe5jj_EMhG3h0_CaVYRhE77lyKPUJuxFay-kRJjEaRv8XGvms7SNGZipfbV2JKgnjYjLNPyX3jA2-yIrMwIFWYiBC0E1js9G0zqVHuD0zMJesp3gXPIPaTyCTipq1F1_kP9YsEi-8TxZJFH_K_CLBpIN-XSuoIK0p3W93HjbPGNMqsiHn1WIfR_B_d-I9m7j14W33rqRnMcO-5xpmz4aC1UK366o_YHXhFqx7PWiqZ0pt3z7OS9FjoF1g-LfT_ZvP8VC"
+    },
+    {
+        "id": 3,
+        "name": "Corte de Diseño",
+        "description": "Corte personalizado con líneas y detalles únicos que reflejan tu estilo.",
+        "price": 35,
+        "time": 60,
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuByuQQe3K5ceHLeF-Xc-E0G87hGzQmjFPqEvehidaCN_XP9lAYLmzhNUiubzwUNTb1dxJD3nogireewr-boT9v8p6k6t9W8zJ5GB0XoXBj2AotM-ncuFDyzKtfaYGpfAgaknSbOJB3l1Xng7kY52Di475ys9zGFJtUrIWHJonTMLF3vCs6D1xo-WwGJG_xef4E-3jRFYJtPGVyrEMCwV7MlZSXZ2xNKjdW7QbXgF8im7Zpda5wBFd0qwbxP7NyYbgu3vQliGb0hA43Y"
+    },
+    {
+        "id": 4,
+        "name": "Barba Premium",
+        "description": "Perfilado de barba con navaja, toallas calientes y productos premium.",
+        "price": 20,
+        "time": 30,
+        "image": "https://images.unsplash.com/photo-1621607512022-6aecc4fed814?q=80&w=1600&auto=format&fit=crop"
+    },
+    {
+        "id": 5,
+        "name": "Corte + Barba Deluxe",
+        "description": "Servicio completo: corte moderno más arreglo de barba con acabado profesional.",
+        "price": 45,
+        "time": 75,
+        "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?q=80&w=1600&auto=format&fit=crop"
+    },
+    {
+        "id": 6,
+        "name": "Afeitado Clásico",
+        "description": "Afeitado tradicional con navaja y toalla caliente para una experiencia de lujo.",
+        "price": 22,
+        "time": 30,
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBPx8y7TSw7ITBQ9CnUsI4Sioi4S3T94Uvuv9Kz6fEr3HVM4vgnUjU3mxOF_U3WWphPmu4mpoZ3yZAsr0Vo-fKA4tjwSHcd9Q-PYgYXsUHr13fTqKHGWxOH8bFAL2gacDYc5dVpHxOUdDF9BKCqHy7Bzwypnv5CJInjwhDScupP9FmmfN4cdh82Ox2zki8_4IEyaCOhkKTO--36wzO0MBJlkaTOdsvLYLq3FA8e-Ulm5lg_Ku_2swWjRPinzGi_AgXcMClfpiMi5g6k"
+    },
+    {
+        "id": 7,
+        "name": "Corte Ejecutivo",
+        "description": "Estilo sobrio y profesional, ideal para reuniones y eventos formales.",
+        "price": 28,
+        "time": 45,
+        "image": "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?q=80&w=1600&auto=format&fit=crop"
+    },
+    {
+        "id": 8,
+        "name": "Tratamiento Capilar",
+        "description": "Hidratación y cuidado del cabello para fortalecer y revitalizar el look.",
+        "price": 18,
+        "time": 25,
+        "image": "https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=1600&auto=format&fit=crop"
+    }
+]
