@@ -16,7 +16,7 @@ export const Reserve = () => {
     const [time, setTime] = useState("")
     const navigate = useNavigate()
 
-    const getAvailableTimes = (selectedDate) => {
+    const getAvailableTimes = (selectedDate: string) => {
         const reserved = booked.filter(b => b.date === selectedDate).map(b => b.time)
         return allTimes.filter(t => !reserved.includes(t))
     }
