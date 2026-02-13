@@ -1,8 +1,8 @@
 export const Hero = () => {
     return (
         <section className="m-4 md:m-8 rounded imagen-services min-h-[60vh] 
-      flex flex-col justify-center gap-4 md:gap-6 items-center text-white 
-      px-4 py-20 md:py-40 text-center">
+        flex flex-col justify-center gap-4 md:gap-6 items-center text-white 
+        px-4 py-20 md:py-40 text-center">
 
             <span className="text-(--color-button) text-sm md:text-lg tracking-widest">
                 PREMIUM GROOMING

@@ -24,7 +24,8 @@ export const Home = () => {
                 </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 mt-4">
+            <div className="flex flex-col sm:flex-row gap-4 mt-4 items-start">
+
                 <Button
                     onClick={() => navigate("/reserve")}
                     title="Reservá tu cita"

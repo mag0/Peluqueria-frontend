@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { Button } from "./Button"
+import { Link } from "react-router-dom"
 
 export const Header = () => {
     const navigate = useNavigate()
@@ -16,9 +17,9 @@ export const Header = () => {
                 </div>
 
                 <nav className="hidden md:flex items-center gap-6">
-                    <a href="/" className="hover:text-(--color-button)">Home</a>
-                    <a href="/services" className="hover:text-(--color-button)">Services</a>
-                    <a href="/about" className="hover:text-(--color-button)">About</a>
+                    <Link to="/" className="hover:text-(--color-button)">Home</Link>
+                    <Link to="/services" className="hover:text-(--color-button)">Services</Link>
+                    <Link to="/about" className="hover:text-(--color-button)">About</Link>
                     <Button onClick={() => navigate("/login")} title="Iniciar Sesión">
                         <i className="fas fa-sign-in-alt"></i>
                     </Button>
@@ -34,9 +35,9 @@ export const Header = () => {
 
             {open && (
                 <div className="md:hidden mt-4 flex flex-col gap-4 bg-(--color-card) p-4 rounded-xl">
-                    <a href="/" className="hover:text-(--color-button)">Home</a>
-                    <a href="/services" className="hover:text-(--color-button)">Services</a>
-                    <a href="/about" className="hover:text-(--color-button)">About</a>
+                    <Link to="/" className="hover:text-(--color-button)">Home</Link>
+                    <Link to="/services" className="hover:text-(--color-button)">Services</Link>
+                    <Link to="/about" className="hover:text-(--color-button)">About</Link>
                     <Button onClick={() => navigate("/login")} title="Iniciar Sesión">
                         <i className="fas fa-sign-in-alt"></i>
                     </Button>
